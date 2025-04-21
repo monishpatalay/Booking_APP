@@ -12,7 +12,7 @@ import PlacePage from './pages/PlacePage.jsx';
 import BookingsPage from './pages/BookingsPage.jsx';
 import BookingPage from './pages/BookingPage.jsx';
 
-axios.defaults.baseURL = "https://booking-app-0tpe.onrender.com';
+axios.defaults.baseURL = "https://booking-app-0tpe.onrender.com";
 axios.defaults.withCredentials = true;
 
 function App() {
