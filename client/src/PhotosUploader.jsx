@@ -88,7 +88,7 @@ export default function PhotosUploader({ addedPhotos, setAddedPhotos }) {
             >
               <img
                 className="w-full h-full object-cover rounded-2xl"
-                src={`https://booking-app-fdsm.onrender.com/${link}`}
+                src={`https://booking-app-0tpe.onrender.com/${link}`}
                 alt=""
               />
 
