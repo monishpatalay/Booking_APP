@@ -12,7 +12,7 @@ import PlacePage from './pages/PlacePage.jsx';
 import BookingsPage from './pages/BookingsPage.jsx';
 import BookingPage from './pages/BookingPage.jsx';
 
-axios.defaults.baseURL = 'https://booking-app-tpdr.onrender.com';
+axios.defaults.baseURL = 'http://localhost:3000';
 axios.defaults.withCredentials = true;
 
 function App() {
