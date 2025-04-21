@@ -15,7 +15,7 @@ export default function LoginPage() {
     ev.preventDefault();
     // Make sure to call the correct URL (note the port).
     try{
-        const {data} = await axios.post("https://booking-app-0tpe.onrender.com/login", { email, password });
+        const {data} = await axios.post("https://booking-app-nbih.onrender.com/login", { email, password });
         setUser(data);
         alert("User logged in successfully");
         setRedirect(true);
